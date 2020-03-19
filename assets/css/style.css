@@ -7,18 +7,13 @@ header {
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
-    height: 75px;
-    width: 100%;
+    
 }
 .navbar {
-    height: 75px;
+    margin-bottom: 0;
     width: 100%;
-    background-color: #606030
-}
-
-.navbar-toggler-icon {
-    color: white;
-    z-index: 2;
+    background-color: #aaffaa;
+    border: 0;
 }
 
 article {
