@@ -12,8 +12,14 @@
 <body>
     <header class="container-fluid header">
         <nav class="navbar navbar-light navbar-expand-sm">
-        <a href="index.html" class="navbar-brand">Paul Smith</a>
-                    
+        <div class="brand-dropdown">
+            <a class="dropdown-toggle" href="#" id="brandDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Paul Smith
+            </a>
+            <div class="dropdown-menu" aria-labelledby="brandDropdownMenuLink">
+            <a class="dropdown-item navbar-brand" href="index.html"></a>
+            </div>
+        </div>                     
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
@@ -34,21 +40,7 @@
     </header>
 
     <article>
-        <section class="sub-header">
-            <div class="row no-gutters">
-            <a class="col-md-4 logo" href="index.html"></a>
-            <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
-                        <h1 class="name">Paul Smith</h1>
-                        <h2 class="title">Studying to be a Full Stack Developer</h2>
-                    </div>
-                </div>
-               
         
-            </div>
-         </div>
-        </section>
     
     
     </article>
