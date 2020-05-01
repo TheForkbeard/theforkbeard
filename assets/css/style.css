@@ -20,21 +20,7 @@
     background-color: #fff;
 }
 
-.ui-menu-color-home {
-    background-color: #e67e22;
-}
 
-.ui-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
-    background-color: #525252;
-}
 
 
 /*Start with header*/
@@ -74,17 +60,16 @@ article {
 /* Then The footer */
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #aaffaa;
     min-height: 120px;
     margin: 0;
 }
 
 .cv-pdf i {
     font-size: 18px;
-    color: #fafafa;
     text-align: center;
     padding-left: 5px;
+    color: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -92,7 +77,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #315531;
 }
 
 .social-links {
@@ -104,10 +89,10 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
+    color: #fff;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -116,7 +101,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #315531;
 }
 
 #footer-details {
