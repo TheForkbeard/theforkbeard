@@ -195,6 +195,21 @@ button[type="submit"] {
     background-color: #3498db;
 }
 
+/* Gallery */
+
+.gallery {
+    clear: both;
+}
+
+.photos {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+.photos img {
+    width: 100%;
+}
 
 /* Then The footer */
 
