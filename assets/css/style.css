@@ -211,6 +211,20 @@ button[type="submit"] {
     width: 100%;
 }
 
+/* a couple of media queries */
+
+@media screen and (max-width: 946px) {
+    .photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .photos {
+        column-count: 2;
+    }
+}
+
 /* Then The footer */
 
 footer {
