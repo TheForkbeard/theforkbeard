@@ -211,6 +211,12 @@ button[type="submit"] {
     width: 100%;
 }
 
+/*--------Map*/
+
+div#map {
+    min-height: 360px;
+}
+
 /* a couple of media queries */
 
 @media screen and (max-width: 946px) {
