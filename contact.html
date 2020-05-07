@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+        <script type="text/javascript">(function() {emailjs.init("user_g0gW9xnlAhgN16SWGoojJ");})();</script>
     </head>
     <body>
         <header class="container-fluid header">
@@ -41,9 +43,9 @@
                     <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                     <h5 class="uppercase text-center">Let's work together!</h5>
                     <div class="center-form">
-                        <form>
+                        <form onsubmit="return sendMail(this);">
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                            <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required />
                             <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
@@ -104,7 +106,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+        <script src="assets/js/sendEmail.js"></script>
     </body>
 
 </html>
