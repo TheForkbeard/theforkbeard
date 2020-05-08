@@ -26,7 +26,7 @@ function repoInformationHTML(repos) {
                 </li>`;
     });
 
-    return `<div class="clearfix repo-list>
+    return `<div class="clearfix repo-list">
                 <p>
                     <strong>Repo List:</strong>
                 </p>
